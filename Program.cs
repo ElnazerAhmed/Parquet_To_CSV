@@ -13,9 +13,9 @@ class Program
 {
     static async Task Main()
     {
-        string parquetPath = @"C:\Users\ELNAZER\Downloads\SUKARI_DYNAMIC\test_to_run_on_visualstudio\SUKARI_DYNAMIC_A_TSX_DVERT_20260310_32636_Xgknt3c4fA011V.parquet";
-        string csvPath = @"C:\Users\ELNAZER\Downloads\SUKARI_DYNAMIC\test_to_run_on_visualstudio\output_chunks\output.csv";
-        string outputFolder = @"C:\Users\ELNAZER\Downloads\SUKARI_DYNAMIC\test_to_run_on_visualstudio\output_chunks";
+        string parquetPath = @"source.parquet";
+        string csvPath = @"output.csv";
+        string outputFolder = @"output_chunks";
 
         await PrintParquetInfo(parquetPath);
 
